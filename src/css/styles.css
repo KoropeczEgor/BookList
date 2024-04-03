@@ -1,0 +1,202 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    padding-top: 2rem;
+}
+
+label {
+    display: block;
+    font-size: 3rem;
+    width: 11rem;
+}
+
+input {
+    padding: 0.6rem;
+
+    /* background: transparent; */
+    background: #40408dab;
+
+    font-size: 1.5rem;
+
+    color: #000000;
+
+    border-radius: 0.3rem;
+    width: 50%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+}
+
+th {
+    font-size: 2rem;
+}
+
+th:nth-last-child(3) {
+    margin-left: 0;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 1rem;
+
+    font-size: 1rem;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgba(5, 245, 217, 0.6);
+}
+
+u {
+    text-decoration: underline;
+}
+
+.main {
+    min-height: 100vh;
+
+    padding: 1rem 0 0 1rem;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 1rem;
+    margin-left: 30%;
+}
+
+.header__promo {
+    width: 20vw;
+
+    color: #000000;
+
+    font-size: 3rem;
+}
+
+.menu {
+    display: flex;
+
+    padding-top: 1rem;
+}
+
+.list {
+    display: flex;
+    margin-left: 3rem;
+
+    color: #000000;
+
+    font-size: 2rem;
+
+    cursor: pointer;
+}
+
+.list:nth-child(1) {
+    margin-left: 0;
+}
+
+.list:active {
+    /* font-size: 2.1rem; */
+    transition: all 3ms;
+    background-color: rgba(5, 245, 217, 0.6);
+    border: 2mm ridge rgba(5, 245, 217, 0.6);
+}
+
+.list:hover {
+    color: #00b1ed;
+}
+
+.title {
+    text-align: center;
+
+    font-size: 2rem;
+
+    color: #000000;
+}
+
+.book {
+    padding-top: 1rem;
+}
+
+.book__table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 0.5rem;
+}
+
+.book__list {
+    margin-top: 1rem;
+
+    min-width: 16.5rem;
+    padding: 1rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.book__title {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #123132;
+}
+
+.book__subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #123132;
+}
+
+.bookList {
+    position: relative;
+
+    border-radius: 1.2rem;
+
+    box-shadow: -2px 4px 42px 0px rgba(34, 60, 80, 0.2);
+
+    background: url(/src/assets/fonBook.jpg) center center/cover no-repeat;
+}
+
+.deletBookList {
+    position: absolute;
+
+    left: 69%;
+    top: 5%;
+
+    cursor: pointer;
+}
+
+.deleteAllBooks {
+    margin-top: 1rem;
+
+    margin-left: 30%;
+}
